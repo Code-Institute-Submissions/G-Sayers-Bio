@@ -48,3 +48,40 @@
 
 }
 
+/*----------------------------------Title */
+
+
+/*----------------------------------Footer */
+
+.footer {
+    background-color: #3f312e;
+}
+
+.footer-contact {
+    padding: 30px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    background-color: #3f312e;
+    color: #b2dfdd;
+    
+
+}
+
+.footer-connect {
+    padding: 30px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    background-color: #3f312e;
+    color: #b2dfdd;
+}
+
+.footer-download {
+    padding: 30px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    background-color: #3f312e;
+    color: #b2dfdd;
+}
