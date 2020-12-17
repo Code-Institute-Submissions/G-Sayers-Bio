@@ -2,6 +2,11 @@
 
 /*----------------------------------Header */
 
+.header {
+    background-color: #3f312e;
+    
+}
+
 .nav-bar-toggler {
     color: #3f312e;
     border: none;
