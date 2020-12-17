@@ -9,8 +9,13 @@
 
 .nav-bar-toggler {
     color: #3f312e;
+    font-size: 25px;
     border: none;
     background: none;
+}
+
+.nav-bar-toggler :hover {
+    color: #4ab296;
 }
 
 
@@ -38,7 +43,10 @@
     font-weight: 700;
     padding-top: 200px;
     padding-left: 25px;
+}
 
+.hvr-grow {
+    transform: scale(1.15);
 }
 
 /*----------------------------------Title */
@@ -50,6 +58,7 @@
      text-decoration-color: #e3d4c7;
      margin-left: 60px;
      padding-bottom: 40px;
+     transition: .75s ease-out;
 
 }
 
@@ -58,7 +67,10 @@
 .about {
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
-    padding-top: 20px;
+    font-size: larger;
+    font-style: italic;
+    padding-top: 25px;
+    padding-bottom: 15px;
     text-align: center;
 
 }
@@ -103,16 +115,33 @@
 
 .about-text-1 {
     font-family:'Montserrat', sans-serif;
-
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;  
 }
 
 .about-text-2 {
     font-family:'Montserrat', sans-serif;
-
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;  
 }
 
 .about-text-3 {
     font-family:'Montserrat', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;  
+}
+.linked-in-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+
+.git-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+.download-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
 }
 
 
