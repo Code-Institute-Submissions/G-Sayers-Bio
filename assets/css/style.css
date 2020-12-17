@@ -18,12 +18,14 @@
     font-family:'Montserrat', sans-serif;
     color: #3f312e;
     font-weight: 600;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-left: 25px;
 
 }
 
-/*----------------------------------Title */.title {
+/*----------------------------------Title */
+
+.title {
 
     display: inline;
      font-family:'Montserrat', sans-serif;
