@@ -2,6 +2,19 @@
 
 /*----------------------------------Header */
 
+.nav-bar-toggler {
+    color: #3f312e;
+    border: none;
+    background: none;
+}
+
+
+.nav-item {
+    font-family:'Montserrat', sans-serif;
+    color: #3f312e;
+    font-weight: 400;
+    padding-inline: 5px;
+}
 
 .jumbotron {
     background: url("../images/gemma-cover-photo.jpg");
