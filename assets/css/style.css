@@ -164,14 +164,13 @@
 
 /*----------------------------------Contact Form */
 
-.form-group {
+.contact {
 
-    font-family:'Montserrat', sans-serif;
-    color: #3f312e;
-    display: inline-block;
-    align-content: center;
-    background-color: rgba(227, 212, 199, 0.3);
-
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    
 }
 .contact-button {
     border: solid 3px;
@@ -181,8 +180,8 @@
     color: #3f312e;
 }
 
-.contact-button :hover {
-    color:rgba(74, 178, 150, 0.6); 
+.contact-button:hover {
+    background-color:rgba(74, 178, 150, 0.4); 
 }
 
 
@@ -190,6 +189,7 @@
 
 .footer {
     background-color: #3f312e;
+    scroll-padding-bottom: sticky;
 }
 
 .footer-contact {
