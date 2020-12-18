@@ -26,8 +26,16 @@
     padding-inline: 5px;
 }
 
-.jumbotron {
+.about-image {
     background: url("../images/gemma-cover-photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    padding: 0px;
+}
+.skills-image {
+    background: url("../images/Laptopimage.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
