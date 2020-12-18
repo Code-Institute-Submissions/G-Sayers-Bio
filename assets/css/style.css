@@ -87,9 +87,6 @@
     text-align: center;
 
 }
-/*----------------------------------Skills */
-
-
 /*----------------------------------Collaboration Section */
 
 .collaborate {
@@ -102,6 +99,8 @@
     text-align: center;
 
 }
+
+/*----------------------------------Icon Styling */
 
 .fa-linkedin-in {
     color: #3f312e;
@@ -197,6 +196,47 @@
     color: #3f312e; 
 }
 
+.html5-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+
+.fa-html5 {
+    color: #3f312e;
+}
+.css-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+.js-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+.strategy-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+.team-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+
+.handshake-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+.project-management-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+.linked-in-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+
+.git-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+.download-icon :hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+
+/*----------------------------------Text Styling */
+
+/*----------About----------*/
+
 .about-text-1 {
     font-family:'Montserrat', sans-serif;
     padding-top: 40px;
@@ -220,16 +260,46 @@
     padding-right: 50px;
     text-align: left;  
 }
-.linked-in-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
+
+/*----------Skills----------*/
+
+.skills {
+    background-color: rgba(227, 212, 199, 0.4)
 }
 
-.git-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
+.skills-intro {
+    font-family:'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    text-align: center;  
 }
-.download-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
+
+.html5-text {
+    font-family:'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    text-align: center;  
 }
+
+.css-text {
+    font-family:'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.js-text {
+    font-family:'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+
 
 /*----------------------------------Page-Breaks and special items */
 
@@ -241,6 +311,10 @@
 }
 
 .skills-frame {
+    min-height: 600px;
+    min-width: 300px;
+}
+.contact-frame {
     min-height: 600px;
     min-width: 300px;
 }
