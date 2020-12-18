@@ -162,6 +162,30 @@
 
 /*----------------------------------Page-Breaks and special items */
 
+/*----------------------------------Contact Form */
+
+.form-group {
+
+    font-family:'Montserrat', sans-serif;
+    color: #3f312e;
+    display: inline-block;
+    align-content: center;
+    background-color: rgba(227, 212, 199, 0.3);
+
+}
+.contact-button {
+    border: solid 3px;
+    border-radius: 0%;
+    width: 200px;
+    font-family:'Montserrat', sans-serif;
+    color: #3f312e;
+}
+
+.contact-button :hover {
+    color:rgba(74, 178, 150, 0.6); 
+}
+
+
 /*----------------------------------Footer */
 
 .footer {
