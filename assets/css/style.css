@@ -87,6 +87,8 @@
     text-align: center;
 
 }
+/*----------------------------------Skills */
+
 
 /*----------------------------------Collaboration Section */
 
@@ -126,10 +128,11 @@
 }
 
 .git-icon {
-  padding-top: 40px;
+    padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
-    font-size: xx-large;  
+    font-size: xx-large; 
+    color: #3f312e; 
 }
 
 .download-icon {
@@ -137,6 +140,61 @@
     padding-bottom: 40px;
     text-align: center;
     font-size: xx-large;
+    color: #3f312e;
+}
+
+.html5-icon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: #3f312e; 
+}
+.css-icon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: #3f312e; 
+}
+
+.js-icon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: #3f312e; 
+}
+
+.strategy-icon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: #3f312e; 
+}
+.team-icon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: #3f312e; 
+}
+
+.handshake-icon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: #3f312e; 
+}
+
+.project-management-icon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: #3f312e; 
 }
 
 .about-text-1 {
