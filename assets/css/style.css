@@ -63,10 +63,15 @@
 
     display: inline;
      font-family:'Montserrat', sans-serif;
-     text-decoration-color: #e3d4c7;
+     color: #3f312e;
+     font-weight: 600;
+     font-size: larger;
+     font-style: italic;
+     padding-top: 25px;
      margin-left: 60px;
      padding-bottom: 40px;
      transition: .75s ease-out;
+     
 
 }
 
