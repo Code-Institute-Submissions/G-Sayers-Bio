@@ -75,6 +75,19 @@
 
 }
 
+/*----------------------------------Collaboration Section */
+
+.collaborate {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    font-style: italic;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
 .fa-linkedin-in {
     color: #3f312e;
 }
