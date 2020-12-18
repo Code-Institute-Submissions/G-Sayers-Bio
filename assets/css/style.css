@@ -182,6 +182,10 @@
     padding-bottom: 10px;
 }
 
+.skills-frame {
+    min-height: 600px;
+    min-width: 300px;
+}
 /*----------------------------------Contact Form */
 
 .contact {
