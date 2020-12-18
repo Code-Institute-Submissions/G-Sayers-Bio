@@ -318,6 +318,10 @@
     min-height: 600px;
     min-width: 300px;
 }
+.portfolio-frame {
+    min-height: 600px;
+    min-width: 300px;
+}
 /*----------------------------------Contact Form */
 
 .contact {
