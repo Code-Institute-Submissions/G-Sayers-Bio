@@ -351,6 +351,7 @@
     font-weight: 600;
     font-size: larger;
     font-style: italic;
+    color: #3f312e;
     padding-top: 45px;
     padding-bottom: 15px;
     text-align: center;
@@ -358,9 +359,13 @@
 
 .ms1 {
     display: inline-block;
-    background-color: #b2dfdd;
+    position: relative;
+    color: #3f312e;
+    background-color:rgba(178, 223, 221, .4);
     font-family:'Montserrat', sans-serif;
-    text-align: center;
+    text-align: left;
+    font-weight: 200;
+    padding-top: 10px;
     margin: 5% 5% 5% 5%;
     min-height: 150px;
 }
