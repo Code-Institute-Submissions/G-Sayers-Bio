@@ -356,7 +356,40 @@
     text-align: center;
 }
 
+.ms1 {
+    display: inline-block;
+    background-color: #b2dfdd;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    min-height: 150px;
+}
 
+.ms2 {
+    display: inline-flexbox;
+    background-color: #b2dfdd;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    min-height: 150px;
+}
+
+.ms3 {
+    display: inline-block;
+    background-color: #b2dfdd;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    min-height: 150px;
+}
+.ms4 {
+    display: inline-block;
+    background-color: #b2dfdd;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    min-height: 150px;
+}
 /*----------------------------------Contact Form */
 .contact-bg {
     background-color: rgba(227, 212, 199, 0.4);
