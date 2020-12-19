@@ -26,6 +26,12 @@
     padding-inline: 5px;
 }
 
+.nav-tabs {
+   padding-left: -10px;
+   border: none;
+
+}
+
 .about-image {
     background: url("../images/gemma-cover-photo.jpg");
     background-position: center;
