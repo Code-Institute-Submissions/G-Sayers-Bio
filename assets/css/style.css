@@ -365,43 +365,39 @@
     text-align: center;
 }
 
-.ms1 {
-    display: inline-block;
-    position: relative;
-    color: #3f312e;
-    background-color:rgba(178, 223, 221, .4);
-    font-family:'Montserrat', sans-serif;
-    text-align: left;
-    font-weight: 200;
-    padding-top: 10px;
-    margin: 5% 5% 5% 5%;
-    min-height: 150px;
-}
 
-.ms2 {
-    display: inline-flexbox;
-    background-color: #b2dfdd;
+.ms1-card {
     font-family:'Montserrat', sans-serif;
-    text-align: center;
-    margin: 5% 5% 5% 5%;
-    min-height: 150px;
+    width: 20rem;
+    position: auto;
+    padding-left: 20px;
+    padding-top: 15px;
+    
 }
-
-.ms3 {
-    display: inline-block;
-    background-color: #b2dfdd;
+.ms2-card {
     font-family:'Montserrat', sans-serif;
-    text-align: center;
-    margin: 5% 5% 5% 5%;
-    min-height: 150px;
+    width: 20rem;
+    position: auto;
+    padding-left: 20px;
+    padding-top: 15px;
+    
 }
-.ms4 {
-    display: inline-block;
-    background-color: #b2dfdd;
+.ms3-card {
     font-family:'Montserrat', sans-serif;
-    text-align: center;
-    margin: 5% 5% 5% 5%;
-    min-height: 150px;
+    width: 20rem;
+    position: auto;
+    padding-left: 20px;
+    padding-top: 15px;
+    
+    
+}
+.ms4-card {
+    font-family:'Montserrat', sans-serif;
+    width: 20rem;
+    position: auto;
+    padding-left: 20px;
+    padding-top: 15px;
+    
 }
 
 .card-button {
