@@ -256,21 +256,47 @@
 .css-icon :hover {
     color: rgba(74, 178, 150, 0.6);
 }
+.fa-css3{
+    color: #3f312e;
+    padding-bottom: 10px;
+}
 .js-icon :hover {
     color: rgba(74, 178, 150, 0.6);
+}
+.fa-js {
+    color: #3f312e;
+    padding-bottom: 10px;
 }
 .strategy-icon :hover {
     color: rgba(74, 178, 150, 0.6);
 }
+.fa-chess-queen {
+    color: #3f312e;
+    padding-bottom: 10px;
+}
+
 .team-icon :hover {
     color: rgba(74, 178, 150, 0.6);
+}
+.fa-users-cog {
+    color: #3f312e;
+    padding-bottom: 10px;
 }
 
 .handshake-icon :hover {
     color: rgba(74, 178, 150, 0.6);
 }
+
+.fa-handshake {
+    color: #3f312e;
+    padding-bottom: 10px;
+}
 .project-management-icon :hover {
     color: rgba(74, 178, 150, 0.6);
+}
+.fa-tasks {
+    color: #3f312e;
+    padding-bottom: 10px;
 }
 .linked-in-icon :hover {
     color: rgba(74, 178, 150, 0.6);
@@ -359,6 +385,8 @@
 
 .card-text {
     padding-bottom: 15px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .html5-text {
