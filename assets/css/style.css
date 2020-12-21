@@ -142,6 +142,9 @@
     border: none;
     border-radius: none;
     margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     transition: .75s ease-out;
 }
 .progress-bar {
