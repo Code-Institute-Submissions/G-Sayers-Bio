@@ -153,6 +153,11 @@
     text-align: center;
     font-size: xx-large;
     color: #3f312e; 
+    width: 18rem;
+    border: none;
+    border-radius: none;
+    margin-left: 20px;
+    transition: .75s ease-out;
 }
 
 .js-icon {
@@ -161,6 +166,11 @@
     text-align: center;
     font-size: xx-large;
     color: #3f312e; 
+    width: 18rem;
+    border: none;
+    border-radius: none;
+    margin-left: 20px;
+    transition: .75s ease-out;
 }
 
 .strategy-icon {
@@ -169,6 +179,11 @@
     text-align: center;
     font-size: xx-large;
     color: #3f312e; 
+    width: 18rem;
+    border: none;
+    border-radius: none;
+    margin-left: 20px;
+    transition: .75s ease-out;
 }
 .team-icon {
     padding-top: 40px;
@@ -176,6 +191,11 @@
     text-align: center;
     font-size: xx-large;
     color: #3f312e; 
+    width: 18rem;
+    border: none;
+    border-radius: none;
+    margin-left: 20px;
+    transition: .75s ease-out;
 }
 
 .handshake-icon {
@@ -184,6 +204,11 @@
     text-align: center;
     font-size: xx-large;
     color: #3f312e; 
+    width: 18rem;
+    border: none;
+    border-radius: none;
+    margin-left: 20px;
+    transition: .75s ease-out;
 }
 
 .project-management-icon {
@@ -192,6 +217,11 @@
     text-align: center;
     font-size: xx-large;
     color: #3f312e; 
+    width: 18rem;
+    border: none;
+    border-radius: none;
+    margin-left: 20px;
+    transition: .75s ease-out;
 }
 
 .html5-icon :hover {
