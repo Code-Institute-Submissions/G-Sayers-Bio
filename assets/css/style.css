@@ -37,10 +37,11 @@ header {
 /*----------------------------------Jumbotron */
 
 .about-image {
-    background: url("../images/gemma-cover-photo.jpg");
-    background-position: center;
+    background: url("../images/gemma-cover-crop.png");
+    background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: rgba(178, 223, 221, 0.6);
     min-height: 400px;
     /* width: 100%; */
     /* padding: 0px; */
@@ -373,7 +374,7 @@ header {
 } */
 
 .card-button {
-    border: solid 2px;
+    border: solid 3px;
     border-radius: 0%;
     width: 200px;
     font-family:'Montserrat', sans-serif;
