@@ -10,6 +10,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+    letter-spacing: 1.5px;
+}
+
+.row {
+    margin: 0;
 }
 /*----------------------------------Header */
 
@@ -19,46 +24,17 @@ header {
     
 }
 
-.navbar {
+.navbar-bg {
     background-color: #312735;
 }
 
-.row {
-    margin: 0;
-}
-
-/* 
-.nav :hover {
-    color: #4ab296;
-} 
-
-.navbar-toggler {
-    color: #3f312e;
-    font-size: 25px;
-    border: none;
-    background: none;
-    position: fixed;
-    float: right;
-} 
-
-.navbar-toggler :hover {
-    color: #4ab296;
-} 
-
-.fas {
-    line-height: 0;
-}
-
-.nav-link {
-    color: #3f312e;
+.nav-item {
+    color: #e3d47c;
     font-weight: 400;
     padding: 5px;
-} 
+}
 
-.nav-link :hover {
-    color: #4ab296;
-} */
-
+/*----------------------------------Jumbotron */
 
 .about-image {
     background: url("../images/gemma-cover-photo.jpg");
@@ -154,14 +130,15 @@ header {
     margin-bottom: 15px;
     transition: .75s ease-out;
 }
-.progress-bar {
-    background-color: #4ab296;
-}
 
-
-.skills-icon :hover {
+.fab:hover {
     color: rgba(74, 178, 150, 0.6);
 } 
+
+.fas:hover {
+    color: rgba(74, 178, 150, 0.6);
+}
+
 
 .fa-html5 {
     color: #3f312e;
@@ -215,6 +192,10 @@ header {
     border: 1px solid #4ab296;
     width: 10%;
     display: inline-flex;
+}
+
+.progress-bar {
+    background-color: #4ab296;
 }
 
 /*----------About----------*/
@@ -392,7 +373,7 @@ header {
 } */
 
 .card-button {
-    border: solid 3px;
+    border: solid 2px;
     border-radius: 0%;
     width: 200px;
     font-family:'Montserrat', sans-serif;
