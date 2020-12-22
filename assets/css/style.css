@@ -139,17 +139,16 @@ header {
     color: #3f312e;
 }
 
-.html5-icon {
+.skills-icon {
     padding-top: 40px;
     padding-bottom: 40px;
-    text-align: center;
     font-size: xx-large;
     color: #3f312e; 
     width: 18rem;
     border: none;
     border-radius: none;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     margin-top: 15px;
     margin-bottom: 15px;
     transition: .75s ease-out;
@@ -157,163 +156,45 @@ header {
 .progress-bar {
     background-color: #4ab296;
 }
-.css-icon {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: xx-large;
-    color: #3f312e; 
-    width: 18rem;
-    border: none;
-    border-radius: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    transition: .75s ease-out;
-}
 
-.js-icon {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: xx-large;
-    color: #3f312e; 
-    width: 18rem;
-    border: none;
-    border-radius: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    transition: .75s ease-out;
-}
 
-.strategy-icon {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: xx-large;
-    color: #3f312e; 
-    width: 18rem;
-    border: none;
-    border-radius: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    transition: .75s ease-out;
-}
-.team-icon {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: xx-large;
-    color: #3f312e; 
-    width: 18rem;
-    border: none;
-    border-radius: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    transition: .75s ease-out;
-}
-
-.handshake-icon {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: xx-large;
-    color: #3f312e; 
-    width: 18rem;
-    border: none;
-    border-radius: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    transition: .75s ease-out;
-}
-
-.project-management-icon {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: xx-large;
-    color: #3f312e; 
-    width: 18rem;
-    border: none;
-    border-radius: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    transition: .75s ease-out;
-}
-
-.html5-icon :hover {
+.skills-icon :hover {
     color: rgba(74, 178, 150, 0.6);
-}
+} 
 
 .fa-html5 {
     color: #3f312e;
     padding-bottom: 10px;
 }
-.css-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
-}
+
 .fa-css3{
     color: #3f312e;
     padding-bottom: 10px;
 }
-.js-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
-}
+
 .fa-js {
     color: #3f312e;
     padding-bottom: 10px;
 }
-.strategy-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
-}
+
 .fa-chess-queen {
     color: #3f312e;
     padding-bottom: 10px;
 }
 
-.team-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
-}
 .fa-users-cog {
     color: #3f312e;
     padding-bottom: 10px;
-}
-
-.handshake-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
 }
 
 .fa-handshake {
     color: #3f312e;
     padding-bottom: 10px;
 }
-.project-management-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
-}
+
 .fa-tasks {
     color: #3f312e;
     padding-bottom: 10px;
-}
-.linked-in-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
-}
-
-.git-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
-}
-.download-icon :hover {
-    color: rgba(74, 178, 150, 0.6);
 }
 
 /*----------------------------------Text Styling */
@@ -387,8 +268,18 @@ header {
 }
 .card-text {
     padding-bottom: 15px;
+    text-align: center;
     font-weight: 300;
 }
+.card {
+    padding: 20px 10px;
+    display: inline-block;
+}
+
+.card-style {
+    padding: 2%;
+}
+
 
 /* .html5-text {
     font-family:'Montserrat', sans-serif;
@@ -465,7 +356,7 @@ header {
 }
 
 
-.ms1-card {
+/* .ms1-card {
     font-family:'Montserrat', sans-serif;
     width: 20rem;
     position: auto;
@@ -497,7 +388,9 @@ header {
     padding-left: 20px;
     padding-top: 15px;
     
-}
+} */
+
+.card
 
 .card-button {
     border: solid 3px;
