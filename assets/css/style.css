@@ -8,46 +8,56 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
 }
 /*----------------------------------Header */
 
-.header {
-    background-color: #3f312e;
+header {
+    margin-top: 52px;
+    /* background-color: #3f312e; */
     
 }
 
-.nav :hover {
-    color: #4ab296;
+.navbar {
+    background-color: #312735;
 }
 
-.nav-bar-toggler {
+.row {
+    margin: 0;
+}
+
+/* 
+.nav :hover {
+    color: #4ab296;
+} 
+
+.navbar-toggler {
     color: #3f312e;
     font-size: 25px;
     border: none;
     background: none;
     position: fixed;
     float: right;
-}
+} 
 
-.nav-bar-toggler :hover {
+.navbar-toggler :hover {
     color: #4ab296;
-   
-}
+} 
+
 .fas {
     line-height: 0;
 }
 
-
 .nav-link {
-    font-family:'Montserrat', sans-serif;
     color: #3f312e;
     font-weight: 400;
     padding: 5px;
-}
+} 
+
 .nav-link :hover {
     color: #4ab296;
-}
+} */
 
 
 .about-image {
@@ -56,22 +66,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
-    width: 100%;
-    padding: 0px;
+    /* width: 100%; */
+    /* padding: 0px; */
 }
-.skills-image {
-    background: url("../images/Laptopimage.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-    padding: 0px;
-}
-
 
 /*---------------------------------- Name */
 .name {
-    font-family:'Montserrat', sans-serif;
     color: #3f312e;
     font-weight: 700;
     padding-top: 275px;
@@ -85,19 +85,15 @@ body {
 /*----------------------------------Title */
 
 .title {
-
     display: inline;
-     font-family:'Montserrat', sans-serif;
-     color: #3f312e;
-     font-weight: 600;
-     font-size: larger;
-     font-style: italic;
-     margin-top: 30px;
-     margin-left: 70px;
-     padding-bottom: 35px;
-     transition: .75s ease-out;
-     
-
+    color: #3f312e;
+    font-weight: 600;
+    font-size: larger;
+    font-style: italic;
+    /* margin-top: 30px;
+    margin-left: 70px; */
+    padding-bottom: 35px;
+    transition: .75s ease-out;
 }
 
 
