@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+/*----------------------------------General */
 * {
     padding: 0;
     margin: 0;
@@ -16,12 +16,10 @@ body {
 .row {
     margin: 0;
 }
-/*----------------------------------Header */
+/*----------------------------------Header & Nav */
 
 header {
-    margin-top: 53px;
-    /* background-color: #3f312e; */
-    
+    margin-top: 53px;   
 }
 
 .navbar-bg {
@@ -49,7 +47,7 @@ color:rgba(74, 178, 150, 0.6);
     
 }
 
-/*---------------------------------- Name */
+
 .name {
     position: relative;
     display: flex;
@@ -70,9 +68,6 @@ color:rgba(74, 178, 150, 0.6);
     transition: .75s ease-in;
 }
 
-
-
-/*----------------------------------Title */
 .title-block {
     background-color: rgba(240, 240, 240, 0.5);
     max-width: 300px;
@@ -88,47 +83,39 @@ color:rgba(74, 178, 150, 0.6);
     transition: .75s ease-out;
 }
 
-
 /*----------------------------------Icon Styling */
 
 .fa-linkedin-in {
-    color: #3f312e;
+    color: #312737;
 }
 
-.fa-linkedin-in i:hover {
-    background-color: #4ab296;
-
-}
 .fa-github {
-    color: #3f312e;
+    color: #312737;
 }
 
 .fa-download {
-    color: #3f312e;
-}
+    color: #312737;
+} 
 
 .linked-in-icon {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
     font-size: xx-large;
-    color: #3f312e;
-}
+} 
 
 .git-icon {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: xx-large; 
-    color: #3f312e; 
 }
 
 .download-icon {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     text-align: center;
     font-size: xx-large;
-    color: #3f312e;
 }
 
 .skills-icon {
@@ -136,12 +123,24 @@ color:rgba(74, 178, 150, 0.6);
     padding-bottom: 40px;
     text-align: center;
     font-size: xx-large;
-    color: #3f312e; 
+    color: #312737; 
     width: 18rem;
     border: none;
     border-radius: none;
-    /* margin-left: 20px;
-    margin-right: 20px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: .75s ease-out;
+}
+
+.skills-icon-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgba(227, 212, 199, 0.4); 
+    width: 18rem;
+    border: none;
+    border-radius: none;
     margin-top: 15px;
     margin-bottom: 15px;
     transition: .75s ease-out;
@@ -153,42 +152,6 @@ color:rgba(74, 178, 150, 0.6);
 
 .fas:hover {
     color: rgba(74, 178, 150, 0.6);
-}
-
-
-.fa-html5 {
-    color: #3f312e;
-    padding-bottom: 10px;
-}
-
-.fa-css3{
-    color: #3f312e;
-    padding-bottom: 10px;
-}
-
-.fa-js {
-    color: #3f312e;
-    padding-bottom: 10px;
-}
-
-.fa-chess-queen {
-    color: #3f312e;
-    padding-bottom: 10px;
-}
-
-.fa-users-cog {
-    color: #3f312e;
-    padding-bottom: 10px;
-}
-
-.fa-handshake {
-    color: #3f312e;
-    padding-bottom: 10px;
-}
-
-.fa-tasks {
-    color: #3f312e;
-    padding-bottom: 10px;
 }
 
 /*----------------------------------Text Styling */
@@ -222,34 +185,10 @@ color:rgba(74, 178, 150, 0.6);
     font-size: larger;
     font-style: italic;
     padding-top: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     text-align: center;
 
 }
-
-/* .about-text-1 {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    text-align: left;  
-}
-
-.about-text-2 {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    text-align: left;  
-}
-
-.about-text-3 {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    text-align: left;  
-} */
 
 /*----------Skills----------*/
 
@@ -258,8 +197,6 @@ color:rgba(74, 178, 150, 0.6);
 }
 
 .skills-intro {
-    /* padding-top: 20px; */
-    /* padding-bottom: 40px; */
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;  
@@ -278,128 +215,22 @@ color:rgba(74, 178, 150, 0.6);
     padding: 2%;
 }
 
-
-/* .html5-text {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;  
-}
-
-.css-text {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;
-}
-
-.js-text {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;
-}
-
-.strategy-text {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;
-}
-.team-text {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;
-}
-.handshake-text {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;
-}
-.project-management-text {
-    font-family:'Montserrat', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;
-} */
-
-
 /*----------Portfolio----------*/
-
-.portfolio-text {
-    font-family:'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: larger;
-    font-style: italic;
-    color: #3f312e;
-    padding-top: 45px;
-    padding-bottom: 15px;
-    text-align: center;
-}
-
-
-/* .ms1-card {
-    font-family:'Montserrat', sans-serif;
-    width: 20rem;
-    position: auto;
-    padding-left: 20px;
-    padding-top: 15px;
-    
-}
-.ms2-card {
-    font-family:'Montserrat', sans-serif;
-    width: 20rem;
-    position: auto;
-    padding-left: 20px;
-    padding-top: 15px;
-    
-}
-.ms3-card {
-    font-family:'Montserrat', sans-serif;
-    width: 20rem;
-    position: auto;
-    padding-left: 20px;
-    padding-top: 15px;
-    
-    
-}
-.ms4-card {
-    font-family:'Montserrat', sans-serif;
-    width: 20rem;
-    position: auto;
-    padding-left: 20px;
-    padding-top: 15px;
-    
-} */
 
 .card-button {
     border: solid 3px;
     border-radius: 0%;
     width: 200px;
     font-family:'Montserrat', sans-serif;
-    color: #3f312e;
+    color: #312737;
 }
 
 .card-button:hover {
     background-color:rgba(74, 178, 150, 0.4); 
 }
+
 /*----------------------------------Contact Form */
+
 .contact-bg {
     background-color: rgba(227, 212, 199, 0.4);
 }
@@ -428,7 +259,7 @@ color:rgba(74, 178, 150, 0.6);
     border-radius: 0%;
     width: 200px;
     font-family:'Montserrat', sans-serif;
-    color: #3f312e;
+    color: #312737;
 }
 
 .contact-button:hover {
@@ -438,39 +269,8 @@ color:rgba(74, 178, 150, 0.6);
 
 /*----------------------------------Footer */
 
-.footer {
-    background-color: #3f312e;
-    scroll-padding-bottom: sticky;
+footer {
+    background-color:rgba(227, 212, 199, 0.4);
 }
 
-.footer-contact {
-    padding: 30px;
-    font-family:'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: small;
-    text-align: center;
-    background-color: #3f312e;
-    color: #b2dfdd;
-    
 
-}
-
-.footer-connect {
-    padding: 30px;
-    font-family:'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: small;
-    text-align: center;
-    background-color: #3f312e;
-    color: #b2dfdd;
-}
-
-.footer-download {
-    padding: 30px;
-    font-family:'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: small;
-    text-align: center;
-    background-color: #3f312e;
-    color: #b2dfdd;
-}
