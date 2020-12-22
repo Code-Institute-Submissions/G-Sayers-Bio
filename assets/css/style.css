@@ -142,6 +142,7 @@ header {
 .skills-icon {
     padding-top: 40px;
     padding-bottom: 40px;
+    text-align: center;
     font-size: xx-large;
     color: #3f312e; 
     width: 18rem;
