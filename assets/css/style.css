@@ -217,7 +217,23 @@ color:rgba(74, 178, 150, 0.6);
 
 /*----------Portfolio----------*/
 
+.card-title {
+    text-align: left;
+    font-weight: 500;
+}
+
+.card-sub-title {
+    text-align: left;
+    font-weight: 400;
+}
+
+.card-text {
+    text-align: left;
+    font-weight: 300;
+}
+
 .card-button {
+    position: left;
     border: solid 3px;
     border-radius: 0%;
     width: 200px;
@@ -235,7 +251,7 @@ color:rgba(74, 178, 150, 0.6);
     background-color: rgba(227, 212, 199, 0.4);
 }
 
-.collaborate {
+/* .collaborate {
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
     font-size: larger;
@@ -244,7 +260,7 @@ color:rgba(74, 178, 150, 0.6);
     padding-bottom: 15px;
     text-align: center;
 
-}
+} */
 
 .contact {
 
