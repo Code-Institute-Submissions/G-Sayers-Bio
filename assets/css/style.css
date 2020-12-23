@@ -73,7 +73,7 @@ color:rgba(74, 178, 150, 0.6);
     max-width: 300px;
 }
 .title {
-    position: bottom left;
+    position: relative;
     display: flex;
     color: rgba(49, 39, 53, 0.9);
     font-weight: 500;
