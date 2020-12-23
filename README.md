@@ -1,6 +1,14 @@
 # Gemma Sayers Portfolio Project 
 ---
 
+A portfolio site designed to showcase Gemma's prior employment experience as well as her recent training as a Full Stack Developer
+
+View the live project [here](https://gjsayers.github.io/G-Sayers-Bio)
+
+View the repository in GitHub [here](https://github.com/GJSayers/G-Sayers-Bio)
+
+![Colour pallet](assets/docs/mock-ups/g-sayers-bio-mock-ups.png)
+
 ## Contents 
 ---
 
@@ -77,9 +85,10 @@
 ### Design choices 
 ---
 * Layout & Wireframes
-  * I have included two sets of wireframes as initially I started to build the site intended to go across separate pages, but then decided with my mentor that a single-page site would be a much better user-experience for the purposes of this project.  Final wireframes can be seen **here**, and the originals **here**. 
+  * I have included two sets of wireframes as initially I started to build the site intended to go across separate pages, but then decided with my mentor that a single-page site would be a much better user-experience for the purposes of this project.  Final wireframes can be seen [here](https://..assets/docs/wireframes/v2/ms1-wireframes-v2.pdf), and the originals [here](https://..assets/docs/wireframes/v2/ms1-wireframes-v1.pdf).  Filed in the wireframes folder
 * Colours
-  * I researched what the colour trends are for 2021 as I want my site to look current and appealing, and was inspired by some of the themes in [99designs](https://en.99designs.it/blog/trends/color-trends/). I then used [colourmind.io](http://colormind.io/) to put my colours into a pallet for consistent use on the website.  You can find my colour inspiration here. and the colour pallet below. [colour-pallet](../colours/colour-pallet.png)
+  * I researched what the colour trends are for 2021 as I want my site to look current and appealing, and was inspired by some of the themes in [99designs](https://en.99designs.it/blog/trends/color-trends/). I then used [colourmind.io](http://colormind.io/) to put my colours into a pallet for consistent use on the website.  You can find my colour inspiration here. and the colour pallet below. ![Colour pallet](assets/docs/colours/colour-pallet.png)
+  
 * Icons 
   * Icons are a great way to signal to the user in a succinct way without being too wordy.  I have used icons from Font Awesome (link) across my about and skills section. 
 * Imagery  
@@ -94,17 +103,19 @@
     *  [CSS3](https://en.wikipedia.org/wiki/CSS)
   * Libraries, Frameworks & Resources;
     *  [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/) was used 
-    *  [Hover.css](https://ianlunn.github.io/Hover/)
-    * Google Fonts
-    * Font Awesome
-    * jQuery
-    * Git 
-    * GitHub
-    * Balsamiq
-    * Colourmind.io was used to put together my colour pallet, using the inspo images I sourced from;
-    * [99designs](https://en.99designs.it/blog/trends/color-trends/)
+    *  [Hover.css](https://ianlunn.github.io/Hover/) I used hover to make elements more interactive
+    *  [Google Fonts](https://fonts.google.com/) I used Monserrat as the font for the whole site
+    *  [Font Awesome](https://fontawesome.com/) Font awesome is where I sourced all the icons for the site
+    *  [jQuery](https://jquery.com/) is used as a script to enable for example the navbar
+    *  [GitHub](https://github.com/) is used to file the repository
+    *  [GitHub Pages](https://pages.github.com/) was used to deploy the site
+    *  [GitPod](https://gitpod.io) was used for development and version control
+    *  [Balsamiq ](https://balsamiq.com) was used to create, save and export my wireframes
+    *  [Colourmind](https://Colourmind.io) was used to put together my colour pallet, using the inspo images I sourced from;
+    * [99designs](https://en.99designs.it/blog/trends/color-trends/) was used to research upcoming colour trends
     * [Apple Photobooth](https://apps.apple.com/us/app/photo-booth/id1208226939) was used to make my self-portrait a little more appealing!
     *  [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) has been invaluable for solving issues and bugs and testing responsiveness. 
+    *  [Techsini](https://techsini.com/multi-mockup/index.php) Was used to create the mockup images. 
 
 ### Features
 ---
@@ -114,11 +125,13 @@
   * I have included interactive Hover Elements for better UX.
 * Future implementations;
   * I would like to upgrade the colours as I feel these did not come across as well as I anticipated based on the pallet. 
-  * I removed the form from the original design as I thought it lengthned the contact process too much - I may consider ways to add this in with UX taken into account.  
+  * I removed the form from the original design as I thought it lengthened the contact process too much - I may consider ways to add this in with UX taken into account.
+  * I would look to improve the navigation bar so that it retracts on scroll.   
 
 ### Testing 
 ---
   *  Development testing 
+    * My main development testing tool used was [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) to continuously check responsiveness & display across different device sizes. 
   *  Design edits
   *  Pre-Deployment validation testing
   *  Peer-code review & mentor feedback 
