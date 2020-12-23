@@ -11,7 +11,6 @@ View the repository in GitHub [here](https://github.com/GJSayers/G-Sayers-Bio)
 
 ## Contents 
 ---
-
 * UX
   * Project Goals & Objectives 
   * User Goals
@@ -40,7 +39,7 @@ View the repository in GitHub [here](https://github.com/GJSayers/G-Sayers-Bio)
 
 * Bugs
   *  Development Bug & Fixes
-  * Pre-Deployment Bugs & Fixes
+  *  Pre-Deployment Bugs & Fixes
 
 * Deployment 
   * Method
@@ -49,7 +48,6 @@ View the repository in GitHub [here](https://github.com/GJSayers/G-Sayers-Bio)
 
 # UX #
 ---
-
 ### Project Goals & Objectives 
 ---
 * To provide a portfolio site that serves to;
@@ -162,31 +160,96 @@ View the repository in GitHub [here](https://github.com/GJSayers/G-Sayers-Bio)
    * Samsung Galaxy A20e
    * Dell laptop (model unknown) 
    * Apple Macbook Air
-   
+
    Browsers;
     * Chrome
     * Safari
-    * Microsoft Edge (slower loading)
+    * Microsoft Edge - idenitfied slower loading of images , resulting in re-sizing travel-guide.img 
     * Mozilla Firefox 
+
+* User Goal Testing;
+
+   To provide a portfolio site that serves to;
+  1) **inform** the user of Gemma's work history and industry experience
+  2) **inform** the user about Gemma's proficency and work since becoming a Full Stack Developer 
+  3) **gain approaches via email or linkedin** for maximum future career and freelance opportunities. 
+
+### User Goals 
+---
+1) As a **Potential Employer for a Coding Role**, I want to;
+   1) Easily **find out Gemma's coding proficiency** to ascertain how this will support her role as a Full stack developer.
+      * The user is able to get a great snapshot on Gemma's coding proficiencies in the Skills section - This is re-enforced by the use of progress bars for a quick identification of skill strengths.  ✅ 
+   2) Easily **download a CV** for comparison with other candidates. 
+      * The user can download a CV from 3 areas in the site making it very easy to access 
+           1) The navigation  ✅ 
+           2) About section  ✅ 
+           3) The footer  ✅ 
+ 2) As a **Potential Employer for a Leadership Role** I want to;
+    1) View Gemma's work and profile to **understand how Gemma's Full Stack Developer course will have given her the edge** when it comes to working in the strategy and leadership team.
+       
+       * The user can view both industry and developer skills in the same skills section ✅
+    2) **reveiw Gemma's leadership experience**
+       * The strategy and leadership skills card has been placed at the top of the industry experience cards and identify years of experience visually. ✅
+    3) **Download a CV**. 
+       * The user can download a CV from 3 areas in the site making it very easy to access 
+           1) The navigation  ✅ 
+           2) About section  ✅ 
+           3) The footer  ✅ 
+3) As a **Potential Collaborator**, I want to be able to;
+   1) **Succinctly reveiw Gemma's strengths**
+      * The user can view both industry and developer skills in the same skills section ✅
+   2) **contact Gemma directly through the site** 
+      * The user can contact directly using a contact button in the contact section which opens to directly email Gemma ✅
+   3) **Navigate easily to Gemma's portfolio and social media pages**.  
+      * The user can navigate to the portfolio section from the nav menu or by scrolling the page ✅
+      * There are icons used in both the first section and the footer section for easy link direct to social media pages, opening in a new tab for best practice ✅
+   4) **contact gemma directly through the site**.
+      * The user can contact directly using a contact button in the contact section which opens to directly email Gemma ✅
 
 ### Bugs
 ---
-  * Bugs & Fixes
-    * long gap on righthand side.  Took a lot of working out and help from Jim (add )
+* Bugs & Fixes
+    * Long gap on righthand side.  Took a lot of working out and help from Jim and use of the Chrome dev tools. Issue;
+      * too many margins across the board
+      * particulatly within the header name and title - now fixed after trail and error with different styling options ✅
     * Navbar was not clicking and after much going around in circles a few things I discovered;
-      * I did not have the js.popper installed in the right place 
-      * I had a beta version of Bootstrap
-      * I had nav-item and nav-link mixed up
-    * Project cards were not displaying properly 
-    * Skills Cards were not displaying correctly
-
+      * I did not have the js.popper installed in the right place - now fixed by adding script after footer closing tag before body closing tag ✅
+      * I had a beta version of Bootstrap - now fixed and using 4.5.3 ✅
+      * I had nav-item and nav-link mixed up which was causing many issues - thanks to @jimlynx_lead for identifying this as well as imput on many of the bugs and issues ✅
+    * Project cards were not displaying properly and continually over-lapping - eventually I settled on a combination of justify-content-center and inline-block display with a padding of 2% and removing all margins. ☑️ I would like to re-visit the display of these as they pull a little to far apart on the larger devices. 
+* Remaining bugs - The travel image still seems to be loading slowly, despite re-sizing to same size as other images, further investigation needed. 
 
 ### Deployment 
 ---
-  * Method
+#### GitHub Pages
+
+This project is deployed on GitHub Pages using the following method;
+1) Log in to GitHub Pages and click on 'repositories'
+2) Find the correct repository ([repository](https://github.com/GJSayers/G-Sayers-Bio) that you want to pulish to pages. 
+3) Go to settings from within the repository. 
+4) Scroll quite far down the page to find the GitHub Pages section. 
+5) Under source, there are three buttons select the branch button (at time of writing the first button of the three) and choose 'Master'. 
+6) Once the page has refreshed (it can take a while) when you scroll back down you will see a green bar with a tick showing that your site is published. 
+
+#### Forking the GitHub repository
+
+To make a copy of the repository, which may be necessary if you wish to make changes without affecting the original using this method;
+1) Ensure you are logged in to GitHub
+2) The Fork button is on the top right of the page, above settings and below your github icon.  Click on it to make a copy of the original. 
   
 ### Credits
 ---
-* Content
-* Media
-* Acknowledgements
+* Content - All written content is created by the developer. 
+* Media - Jumbotron image is created by the developer using Apple photo booth.  
+* The portfolio images are dowloaded from Shutterstock 
+   * Laptop image - Royalty-free stock photo ID: 1478246771 [Pro-Stock Studio](https://www.shutterstock.com/it/g/prostock_studio)
+   * Team image - Royalty-free stock photo ID: 1731284125 by [Stefano Garau](https://www.shutterstock.com/it/g/StefanoGarau)
+   * Travel guide image - Royalty free photo ID: 574613491 by [Jacob Lund](https://www.shutterstock.com/it/g/jacoblund)
+   * Journey Through the Tundra image - Royalty-free stock illustration ID: 294169949 by [NextMarsMedia](https://www.shutterstock.com/it/g/NextMars)
+
+### Acknowledgements
+--- 
+* Thank you to my mentor Gurjot Singh for advice and guidance since I started. 
+* Thank you to the tutor team at Code Institute 
+* Thank you to [Jim Morel ](Github) for jumping in and helping me understand the nav solution and identity various bugs and issues. 
+* Thank you to Ed B for helpful comments on peer code review. 
