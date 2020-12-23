@@ -52,36 +52,39 @@ View the repository in GitHub [here](https://github.com/GJSayers/G-Sayers-Bio)
 
 ### Project Goals & Objectives 
 ---
-* To provide a portfolio site that serves to **inform** the user of the work history between Gemma's extensive experience in the fashion industry in combination with her path to becoming a Full Stack Developer for maximum future career and freelance opportunities. 
+* To provide a portfolio site that serves to;
+  1) **inform** the user of Gemma's work history and industry experience
+  2) **inform** the user about Gemma's proficency and work since becoming a Full Stack Developer 
+  3) **gain approaches via email or linkedin** for maximum future career and freelance opportunities. 
 
 ### User Goals 
 ---
-* As a **Potential Employer for a Coding Role**, I want to;
-  * Easily **find out Gemma's coding proficiency** to ascertain how this will support her role as a Full stack developer.  
-  * Easily **download a CV** for comparison with other candidates. 
-* As a **Potential Employer for a Leadership Role** I want to;
-  * View Gemma's work and profile to **understand how Gemma's Full Stack Developer course will have given her the edge** when it comes to working in the strategy and leadership team.  
-  * **reveiw Gemma's leadership experience** 
-  * **download a CV**. 
-* As a **Potential Collaborator**, I want to be able to;
-  * **Succinctly reveiw Gemma's strengths**.
-  * **contact Gemma directly through the site** 
-  * **Navigate easily to Gemma's portfolio and social media pages**.  
-  * **contact gemma directly through the site**.
+1) As a **Potential Employer for a Coding Role**, I want to;
+   1) Easily **find out Gemma's coding proficiency** to ascertain how this will support her role as a Full stack developer.  
+   2) Easily **download a CV** for comparison with other candidates. 
+ 2) As a **Potential Employer for a Leadership Role** I want to;
+   1) View Gemma's work and profile to **understand how Gemma's Full Stack Developer course will have given her the edge** when it comes to working in the strategy and leadership team.  
+   2) **reveiw Gemma's leadership experience** 
+   3)**download a CV**. 
+3) As a **Potential Collaborator**, I want to be able to;
+   1) **Succinctly reveiw Gemma's strengths**.
+   2) **contact Gemma directly through the site** 
+   3) **Navigate easily to Gemma's portfolio and social media pages**.  
+   4) **contact gemma directly through the site**.
 
 ### Stakeholder Goals 
 ---
 * To lead the user to;
-  * Contact Gemma using the **contact form** if user is a **potential employer, collaborator or client**. 
-  * **Download Gemma's CV** if user is a **potential employer**. 
-  * **Connect with Gemma on social media** if user is a potential employer, collaborator, or client. 
+  1) Contact Gemma using the **contact form** if user is a **potential employer, collaborator or client**. 
+  2) **Download Gemma's CV** if user is a **potential employer**. 
+  3) **Connect with Gemma on social media** if user is a potential employer, collaborator, or client. 
 
 
 ### User Reqirements and Expectations 
 ---
-* Responsive design for accessibility across a range of devices.
-* Minimal design for easy navigation.
-* Easy to contact Gemma directly or through social media links.
+1) Responsive design for accessibility across a range of devices.
+2) Minimal design for easy navigation.
+3) Easy to contact Gemma directly or through social media links.
 ### Design choices 
 ---
 * Layout & Wireframes
@@ -127,15 +130,44 @@ View the repository in GitHub [here](https://github.com/GJSayers/G-Sayers-Bio)
   * I would like to upgrade the colours as I feel these did not come across as well as I anticipated based on the pallet. 
   * I removed the form from the original design as I thought it lengthened the contact process too much - I may consider ways to add this in with UX taken into account.
   * I would look to improve the navigation bar so that it retracts on scroll.   
+  * I would look to improve on 
 
 ### Testing 
 ---
-  *  Development testing 
-    * My main development testing tool used was [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) to continuously check responsiveness & display across different device sizes. 
-  *  Design edits
-  *  Pre-Deployment validation testing
-  *  Peer-code review & mentor feedback 
-  *  Post-Deployment Results
+*  Development testing 
+    * My main development testing tool used was [Google Dev Tools](https://developers.google.com/web/tools/chrome-devtools) each time a commit made I would use the tool to;
+       * check device sizing effects
+       * solve bugs that I could not otherwise visualise from simply looking at the code. 
+*  Design edits
+    * My initial set of wireframes included a multiple page website, however on discussing with my mentor, it became quickly apparent that this was not the correct structure or navigation for the best user experience.  Since each user is requiring simplicity and quick results. 
+    * This resulted in a change to a single page scrolling website with navigation leading to the differnt sections of the page.  
+*  Validation testing was taken out using;
+  1) [W3S CSS Validator](https://jigsaw.w3.org/css-validator/) 
+  2) [W3S Html Validator](https://validator.w3.org/) 
+  Before submission of the project.  I received some errors on both sets of code and documented the required edits and edits made in [this folder](https://assets/docs/testing)prior to sumbission, validation was approved for both CSS and HTML.   
+  3) [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to assess the performance, accessibility, best practices and SEO.  
+  ![Lighthouse Results](
+    assets/docs/testing/lighthouse-testing-23rd-dec.png)
+    Whilst scoring highly for Accessibility and SEO, I would like to re-visit Best practices and performance to seek a higher score. 
+*  Peer-code review was really helpful in finding a couple of solutions;
+  1) That I had incorrect image paths and this was causing the broken links on my portfolio cards section. **Fix** remove the first /!
+  2) To highlight some missing alt tags. 
+*  Items identified that I may re-visit later;
+  1) <hr> link identified as not best practice any more.  As I went tot a lot of trouble to get this right I didnt want to work on it close to the end, but will research after submission. 
+  2) Advice to close the nav drop-down on click, which I have also highlighted myself in future implementations, hovever the navigation was one of the trickier things for me to get right in this project, so I kept to the original solution. 
+*  Device and browser Testing - I asked family and friends to take a look on various devices;
+   * Apple Iphone 5, 7, 11. 
+   * Ipad mini 4th Gen
+   * Ipad pro 
+   * Samsung Galaxy A20e
+   * Dell laptop (model unknown) 
+   * Apple Macbook Air
+   
+   Browsers;
+    * Chrome
+    * Safari
+    * Microsoft Edge (slower loading)
+    * Mozilla Firefox 
 
 ### Bugs
 ---
