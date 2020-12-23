@@ -229,7 +229,7 @@ color:rgba(74, 178, 150, 0.6);
 }
 
 .card-button {
-    position: left;
+    position: relative;
     border: solid 3px;
     border-radius: 0%;
     width: 200px;
